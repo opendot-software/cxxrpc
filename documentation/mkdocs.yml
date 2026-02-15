@@ -1,1 +1,18 @@
-site_name: C++ Runtime Framework for HPC
+site_name: C++ Runtime for Parallelism & Concurrency
+site_url: https://www.opendot-swf.org/
+site_description: Project documentation with Markdown.
+site_author: MkDocs Team
+
+repo_url: https://github.com/mkdocs/mkdocs/
+edit_uri: blob/master/docs/
+
+theme:
+  name: mkdocs
+  color_mode: dark
+  user_color_mode_toggle: true
+  locale: en
+  analytics: {gtag: 'G-274394082'}
+  highlightjs: true
+  hljs_languages:
+    - yaml
+    - django

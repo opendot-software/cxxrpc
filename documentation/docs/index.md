@@ -1,5 +1,6 @@
-# Runtime for Parallelism & Concurrency
+# C++ Runtime for Parallelism & Concurrency
 A specification for high performance computing applications enabling implementation to have following traits:
+
 - High throughput
 - Resposiveness
 - Data Parallel Computation
@@ -27,6 +28,13 @@ A specification for high performance computing applications enabling implementat
 
 #### Partition Scheduling Schemes
 * How each chunk/partition is mapped to each underlying OS level thread
+
+
+## Use Cases
+
+1. Parallel Software Pipeline
+2. SPMD & Loop Parallelism Computations
+3. Task Parallelism for Network or GUI applications
 
 ## Questions
 1. Where does task come into the picture
