@@ -51,6 +51,13 @@ A specification for high performance computing applications enabling implementat
 5. Can this system be used to expose a user friendly API to define software level pipelines?
 6. Can this system be used to for task parallelism e.g., one task/thread runs a logging system, 2nd thread runs the socket recieve logic, 3rd thread runs the transmit logic and 4-8th thread run processing pipeline?
 
+## Technology Options
+
+- Thread Control Library:
+
+    1. hwloc: to fetch CPU, hardware thread and NUMA properties of underlying hardware. Also allow thread pinning, numa allocation etc.
+    2. numactl
+
 ```mermaid
 flowchart TD
     A[Start] --> B[Input Data]
