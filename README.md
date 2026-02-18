@@ -56,14 +56,4 @@ A specification for high performance computing applications enabling implementat
 - Thread Control Library:
 
     1. hwloc: to fetch CPU, hardware thread and NUMA properties of underlying hardware. Also allow thread pinning, numa allocation etc.
-    2. numactl
-
-```mermaid
-flowchart TD
-    A[Start] --> B[Input Data]
-    B --> C{Is Data Valid?}
-    C -- Yes --> D[Process Data]
-    C -- No --> E[Show Error]
-    D --> F[End]
-    E --> F
-```
+    2. numactl: to explicitly controle NUMA operations if hwloc does not offer enough flexibility
